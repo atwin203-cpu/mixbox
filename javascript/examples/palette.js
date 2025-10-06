@@ -13,16 +13,16 @@ function setup() {
   colorMode(RGB);
   rectMode(CENTER);
 
-  boxes.push([ 60, 60,[ 13,  27,  68]]); // phthalo blue
-  boxes.push([580, 180,[255, 236,   4]]); // bis yellow
-  boxes.push([420,  60,[255, 236,   4]]); // bis yellow
-  boxes.push([220, 300,[255, 208,   0]]); // hansa yellow
-  boxes.push([420, 380,[ 25,   0,  89]]); // ultramarine blue
-  boxes.push([500, 260,[ 25,   0,  89]]); // ultramarine blue
-  boxes.push([700, 380,[225,  35,   1]]); // cadmium red
-  boxes.push([580, 580,[128,   2,  46]]); // magenta
-  boxes.push([100, 580,[249, 250, 249]]); // white
-  boxes.push([260, 580,[249, 250, 249]]); // white
+  boxes.push([ 0, 0,[ 255,  255,  0]]); // phthalo blue
+  boxes.push([0, 2,[0, 0,   255]]); // bis yellow
+  boxes.push([0,  4,[128, 64,   0]]); // bis yellow
+  boxes.push([220, 300,[255, 0,   0]]); // hansa yellow
+  boxes.push([220, 302,[ 0,   255,  255]]); // ultramarine blue
+  boxes.push([500, 260,[ 0,   255,  0]]); // ultramarine blue
+  boxes.push([500, 262,[255,  0,   255]]); // cadmium red
+  boxes.push([580, 580,[0,   0,  0]]); // magenta
+  boxes.push([100, 580,[255, 255, 255]]); // white
+  boxes.push([260, 580,[123, 19, 241]]); // white
   drawBoxes();
 }
 
