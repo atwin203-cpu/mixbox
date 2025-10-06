@@ -13,7 +13,7 @@ function setup() {
   colorMode(RGB);
   rectMode(CENTER);
 
-  boxes.push([ 60, 60,[ 13,  27,  68]]); // phthalo blue
+  boxes.push([ 60, 60,[ 255,  27,  68]]); // phthalo blue
   boxes.push([580, 180,[255, 236,   4]]); // bis yellow
   boxes.push([420,  60,[255, 236,   4]]); // bis yellow
   boxes.push([220, 300,[255, 208,   0]]); // hansa yellow
